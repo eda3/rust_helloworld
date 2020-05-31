@@ -15,11 +15,16 @@ impl Philosopher {
 }
 
 fn main() {
-    let p1 = Philosopher::new("Player1");
-    let p2 = Philosopher::new("Player2");
-    let p3 = Philosopher::new("Player3");
-    let p4 = Philosopher::new("Player4");
-    let p5 = Philosopher::new("Player5");
+    let philosophers = vec![
+        Philosopher::new("Player1"),
+        Philosopher::new("Player2"),
+        Philosopher::new("Player3"),
+        Philosopher::new("Player4"),
+        Philosopher::new("Player5"),
+    ];
+    for p in &philosophers {
+        p.eat();
+    }
 }
 
 /*数字当てゲーム
