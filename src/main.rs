@@ -1,3 +1,4 @@
+/*数字当てゲーム
 extern crate rand;
 
 use std::io;
@@ -37,4 +38,4 @@ fn main() {
         }
     }
 }
-
+*/
