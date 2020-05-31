@@ -1,3 +1,23 @@
+struct Philosoher {
+    name: String,
+}
+
+impl Philosoher {
+    fn new(name: &str) -> Philosoher {
+        Philosoher {
+            name: name.to_string(),
+        }
+    }
+}
+
+fn main() {
+    let p1 = Philosoher::new("Player1");
+    let p2 = Philosoher::new("Player2");
+    let p3 = Philosoher::new("Player3");
+    let p4 = Philosoher::new("Player4");
+    let p5 = Philosoher::new("Player5");
+}
+
 /*数字当てゲーム
 extern crate rand;
 
