@@ -8,6 +8,10 @@ impl Philosopher {
             name: name.to_string(),
         }
     }
+
+    fn eat(&self) {
+        println!("{} は食事し始めた", self.name);
+    }
 }
 
 fn main() {
