@@ -1,3 +1,4 @@
+/*
 struct Philosopher {
     name: String,
 }
@@ -26,7 +27,7 @@ fn main() {
         p.eat();
     }
 }
-
+*/
 /*数字当てゲーム
 extern crate rand;
 
